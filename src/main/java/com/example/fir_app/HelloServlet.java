@@ -8,7 +8,7 @@ public class HelloServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
-        out.println("<h1>" + "ХЫХЫ" + "</h1>");
+        out.println("<h1>" + "ХЫХЫx" + "</h1>");
         out.println("</body></html>");
     }
 }
